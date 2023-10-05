@@ -18,20 +18,20 @@ function makeMultiplier(multiplier) {
 
 var multiplyBy3 = makeMultiplier(3);
 console.log(multiplyBy3(10));
-var doubleAll = makeMultiplier(2);
-console.log(doubleAll(100));
+//var doubleAll = makeMultiplier(2);
+//console.log(doubleAll(100));
 
 
 
 // Passing functions as arguments
-function doOperationOn(x, operation) {
-  return operation(x);
-}
+//function doOperationOn(x, operation) {
+//  return operation(x);
+//}
 
-var result = doOperationOn(5, multiplyBy3);
-console.log(result);
-result = doOperationOn(100, doubleAll);
-console.log(result);
+//var result = doOperationOn(5, multiplyBy3);
+//console.log(result);
+//result = doOperationOn(100, doubleAll);
+//console.log(result);
 
 
 

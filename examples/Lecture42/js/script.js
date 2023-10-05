@@ -7,6 +7,7 @@ if (x == undefined) {
 }
 
 x = 5;
+x = 4
 if (x == undefined) {
   console.log("x is undefined");
 }
